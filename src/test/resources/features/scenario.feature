@@ -1,6 +1,7 @@
 #Gherkin
 Feature: Find restaurant
   #Позитивный сценарий: выбираем город краснодар и получем меню для краснодара
+  
   Scenario: chose restaurant city
     Given url of restaurant 'https://dodopizza.ru/'
     Then  chose city 'Краснодар'
